@@ -1,0 +1,32 @@
+html{
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(245, 245, 245);
+}
+#context-menu{
+    display: none;
+    width: fit-content;
+    padding: .2rem 0;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.item-contextmenu{
+    margin: .7rem;
+}
+.item-contextmenu i{
+    font-size: .8rem;
+}
+.item-contextmenu span{
+    font-size: .8rem;
+    transition: all .2s;
+    margin-left: .2rem;
+}
+.item-contextmenu:hover span{
+    cursor: pointer;
+    color: rgb(170, 16, 213);
+}
+.item-contextmenu:hover #delete{
+    color: red;
+}
